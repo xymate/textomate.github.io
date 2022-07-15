@@ -27,7 +27,7 @@ function App() {
   return (
 
     <div className="App">
-      <Navbar title="Textomate" mode={mode} toggleMode={toggleMode}/>
+      <Navbar title="TextoMate" mode={mode} toggleMode={toggleMode}/>
       <div className="container my-3" >
        <Textform title="Enter the text here" mode={mode}/> 
       {/*<About/>*/}
